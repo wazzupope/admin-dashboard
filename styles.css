@@ -4,6 +4,10 @@ body {
   margin: auto;
 }
 
+.project-boxes {
+  background: white;
+}
+
 #header {
   background: white;
   display: grid;
@@ -47,6 +51,8 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 33.3% 33.3% 33.3%;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 #project-title {

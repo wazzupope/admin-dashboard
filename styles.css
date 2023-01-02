@@ -37,6 +37,24 @@ body {
   grid-template-columns: 75% 25%;
 }
 
+#projects {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  margin: 15px;
+}
+
+#project-items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+#project-title {
+  font-size: 20px;
+  height: 22px;
+  margin: 15px 0px;
+}
+
 #right {
   display: grid;
   grid-template-rows: 20vh 80vh;

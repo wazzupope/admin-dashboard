@@ -6,6 +6,22 @@ body {
 
 #header {
   background: white;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#header-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-lower {
+  display: flex;
+  justify-content: space-between;
+}
+
+#greeting {
+  display: flex;
 }
 
 #left {
@@ -17,6 +33,8 @@ body {
 
 #main {
   background: rgba(225, 232, 239, 1);
+  display: grid;
+  grid-template-columns: 75% 25%;
 }
 
 #right {

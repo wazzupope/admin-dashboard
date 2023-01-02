@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  margin: auto;
+}
+
+#header {
+  background: white;
+}
+
+#left {
+  background: rgba(0, 146, 209, 1);
+  color: white;
+  display: grid;
+  height: 100vh;
+}
+
+#main {
+  background: rgba(225, 232, 239, 1);
+}
+
+#right {
+  display: grid;
+  grid-template-rows: 20vh 80vh;
+}

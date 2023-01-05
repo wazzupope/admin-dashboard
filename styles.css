@@ -5,6 +5,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.buttons {
+  background:rgba(0, 146, 209, 1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+}
+
 .icons {
   justify-self: center;
 }

@@ -5,6 +5,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.icons {
+  justify-self: center;
+}
+
 .project-boxes {
   background: white;
 }
@@ -23,6 +27,10 @@ body {
   background: white;
   height: 30px;
   width: 30px;
+}
+
+#dashboard {
+  font-weight: 500;
 }
 
 #header {
@@ -50,6 +58,12 @@ body {
   color: white;
   display: grid;
   height: 100vh;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 0px repeat(11, 30px);
+  gap: 10px 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 #main {

@@ -42,6 +42,10 @@ body {
   font-weight: 500;
 }
 
+#greeting {
+  display: flex;
+}
+
 #header {
   background: white;
   display: grid;
@@ -59,8 +63,9 @@ body {
   justify-content: space-between;
 }
 
-#greeting {
-  display: flex;
+#hi-there {
+  font-size: 12px;
+  font-weight: 700;
 }
 
 #info {
@@ -88,6 +93,11 @@ body {
   background: rgba(225, 232, 239, 1);
   display: grid;
   grid-template-columns: 75% 25%;
+}
+
+#name-heading {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 #projects {
@@ -132,4 +142,9 @@ body {
 
 #search-icon {
   margin: 0px 20px;
+}
+
+#username {
+  font-size: 16px;
+  font-weight: 700;
 }

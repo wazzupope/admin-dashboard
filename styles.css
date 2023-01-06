@@ -49,8 +49,9 @@ body {
 }
 
 #header-upper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
 }
 
 #header-lower {
@@ -63,8 +64,11 @@ body {
 }
 
 #info {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
   align-items: center;
+  justify-items: center;
+  margin: auto 30px;
 }
 
 #left {
@@ -112,6 +116,20 @@ body {
 }
 
 #search {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
   align-items: center;
+  justify-items: end;
+}
+
+#search-bar {
+  background: rgba(225, 232, 239, 1);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  height: 24px;
+}
+
+#search-icon {
+  margin: 0px 20px;
 }

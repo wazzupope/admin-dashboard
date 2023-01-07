@@ -77,6 +77,12 @@ body {
   font-size: 12px;
 }
 
+.trending-div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+}
+
 .trending-header {
   margin: auto;
   font-size: 12px;
@@ -106,6 +112,10 @@ body {
 #aside {
   display: grid;
   grid-template-rows: 50% 50%;
+}
+
+#announcement-items {
+  background: white;
 }
 
 #announcement-title {
@@ -217,6 +227,10 @@ body {
 
 #search-icon {
   margin: 0px 20px;
+}
+
+#trending-items {
+  background: white;
 }
 
 #trending-title {

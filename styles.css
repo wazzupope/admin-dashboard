@@ -7,10 +7,12 @@ body {
 
 .announcement-description {
  margin: auto;
+ font-size: 10px;
 }
 
 .announcement-header {
   margin: auto;
+  font-size: 12px;
 }
 
 .buttons {
@@ -72,10 +74,12 @@ body {
 
 .trending-description {
   margin: auto;
+  font-size: 12px;
 }
 
 .trending-header {
   margin: auto;
+  font-size: 12px;
 }
 
 .user-photo-large {
@@ -97,6 +101,15 @@ body {
 
 #actions {
   margin: 0px 30px;
+}
+
+#aside {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#announcement-title {
+  font-size: 16px;
 }
 
 #dashboard {
@@ -204,6 +217,10 @@ body {
 
 #search-icon {
   margin: 0px 20px;
+}
+
+#trending-title {
+  font-size: 16px;
 }
 
 #username {

@@ -30,6 +30,12 @@ body {
 .project-boxes {
   background: white;
   margin: 10px 10px;
+  display: grid;
+  grid-template-columns: 3% 97%;
+}
+
+.project-box-left-accent {
+  background: orange;
 }
 
 .project-description {

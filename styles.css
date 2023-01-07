@@ -12,6 +12,7 @@ body {
   border-radius: 20px;
   width: 80px;
   height: 30px;
+  margin: 0px 10px;
 }
 
 .icons {
@@ -28,6 +29,7 @@ body {
   background: white;
   height: 50px;
   width: 50px;
+  margin: 0px 20px;
 }
 
 .user-photo-small {
@@ -36,6 +38,10 @@ body {
   background: white;
   height: 30px;
   width: 30px;
+}
+
+#actions {
+  margin: 0px 30px;
 }
 
 #dashboard {
@@ -61,6 +67,8 @@ body {
 #header-lower {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #hi-there {
@@ -98,6 +106,7 @@ body {
 #name-heading {
   font-size: 22px;
   font-weight: 700;
+  margin: 5px 0px;
 }
 
 #projects {

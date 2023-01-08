@@ -184,7 +184,6 @@ body {
   background: rgba(0, 146, 209, 1);
   color: white;
   display: grid;
-  height: 100vh;
   grid-template-columns: 10% 90%;
   grid-template-rows: 0px repeat(11, 30px);
   gap: 10px 20px;

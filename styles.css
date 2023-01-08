@@ -86,7 +86,7 @@ body {
 .trending-div {
   display: grid;
   grid-template-columns: 30% 70%;
-  margin: 20px;
+  margin: 10px;
 }
 
 .trending-header {
@@ -125,6 +125,7 @@ body {
   padding: 10px 20px;
   margin-right: 20px;
   border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(204 209 215);
 }
 
 #announcement-text-no-border {
@@ -247,10 +248,13 @@ body {
   background: white;
   margin-right: 20px;
   border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgb(204 209 215);
 }
 
 #trending-title {
   font-size: 16px;
+  margin: 15px 0px 8px 0px;
 }
 
 #username {
